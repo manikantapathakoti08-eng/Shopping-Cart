@@ -2,6 +2,8 @@
 FROM eclipse-temurin:17-jdk-jammy AS build
 WORKDIR /app
 COPY . .
+# Add this exact line to fix the permission denied error:
+RUN chmod +x ./mvnw
 RUN ./mvnw clean package -DskipTests
 
 # Stage 2: Run the application
