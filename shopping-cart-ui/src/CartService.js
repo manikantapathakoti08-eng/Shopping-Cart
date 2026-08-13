@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// This points directly to your running Spring Boot Tomcat server
-const API_URL = 'http://localhost:8080/api/cart';
+const API_URL = import.meta.env.VITE_API_BASE_URL;
 
 const getCart = () => {
     return axios.get(API_URL);
