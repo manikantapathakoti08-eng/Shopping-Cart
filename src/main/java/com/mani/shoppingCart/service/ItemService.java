@@ -1,7 +1,7 @@
-package com.pragathi.shoppingCart.service;
+package com.mani.shoppingCart.service;
 
-import com.pragathi.shoppingCart.model.Item;
-import com.pragathi.shoppingCart.repository.ItemRepository;
+import com.mani.shoppingCart.model.Item;
+import com.mani.shoppingCart.repository.ItemRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

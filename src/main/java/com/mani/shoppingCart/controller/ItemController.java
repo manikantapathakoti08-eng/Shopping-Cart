@@ -1,7 +1,7 @@
-package com.pragathi.shoppingCart.controller;
+package com.mani.shoppingCart.controller;
 
-import com.pragathi.shoppingCart.model.Item;
-import com.pragathi.shoppingCart.service.ItemService;
+import com.mani.shoppingCart.model.Item;
+import com.mani.shoppingCart.service.ItemService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

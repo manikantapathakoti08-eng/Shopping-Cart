@@ -1,4 +1,4 @@
-package com.pragathi.shoppingCart.model;
+package com.mani.shoppingCart.model;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;

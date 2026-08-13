@@ -1,4 +1,4 @@
-package com.pragathi.shoppingCart.config;
+package com.mani.shoppingCart.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
